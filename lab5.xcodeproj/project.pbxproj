@@ -7,6 +7,47 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		82DA65C01D7E1970001C9121 /* cellHome.m in Sources */ = {isa = PBXBuildFile; fileRef = 82DA65AD1D7E1970001C9121 /* cellHome.m */; };
+		82DA65C11D7E1970001C9121 /* cellHome.xib in Resources */ = {isa = PBXBuildFile; fileRef = 82DA65AE1D7E1970001C9121 /* cellHome.xib */; };
+		82DA65C21D7E1970001C9121 /* cellMunipios.m in Sources */ = {isa = PBXBuildFile; fileRef = 82DA65B01D7E1970001C9121 /* cellMunipios.m */; };
+		82DA65C31D7E1970001C9121 /* cellMunipios.xib in Resources */ = {isa = PBXBuildFile; fileRef = 82DA65B11D7E1970001C9121 /* cellMunipios.xib */; };
+		82DA65C41D7E1970001C9121 /* Declarations.m in Sources */ = {isa = PBXBuildFile; fileRef = 82DA65B31D7E1970001C9121 /* Declarations.m */; };
+		82DA65C51D7E1970001C9121 /* DestinationDetails.m in Sources */ = {isa = PBXBuildFile; fileRef = 82DA65B51D7E1970001C9121 /* DestinationDetails.m */; };
+		82DA65C61D7E1970001C9121 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 82DA65B61D7E1970001C9121 /* GoogleService-Info.plist */; };
+		82DA65C71D7E1970001C9121 /* Home.m in Sources */ = {isa = PBXBuildFile; fileRef = 82DA65B81D7E1970001C9121 /* Home.m */; };
+		82DA65CA1D7E1970001C9121 /* Municipios.m in Sources */ = {isa = PBXBuildFile; fileRef = 82DA65BD1D7E1970001C9121 /* Municipios.m */; };
+		82DA65CB1D7E1970001C9121 /* ShoppingCart.m in Sources */ = {isa = PBXBuildFile; fileRef = 82DA65BF1D7E1970001C9121 /* ShoppingCart.m */; };
+		82DA65ED1D7E19DD001C9121 /* jal_arandas.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 82DA65CF1D7E19DD001C9121 /* jal_arandas.jpg */; };
+		82DA65EE1D7E19DD001C9121 /* jal_guadalajara.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 82DA65D01D7E19DD001C9121 /* jal_guadalajara.jpg */; };
+		82DA65EF1D7E19DD001C9121 /* jal_tlajomulco.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 82DA65D11D7E19DD001C9121 /* jal_tlajomulco.jpg */; };
+		82DA65F01D7E19DD001C9121 /* jal_tlaquepaque.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 82DA65D21D7E19DD001C9121 /* jal_tlaquepaque.jpg */; };
+		82DA65F11D7E19DD001C9121 /* jal_tonala.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 82DA65D31D7E19DD001C9121 /* jal_tonala.jpg */; };
+		82DA65F21D7E19DD001C9121 /* jalisco.png in Resources */ = {isa = PBXBuildFile; fileRef = 82DA65D41D7E19DD001C9121 /* jalisco.png */; };
+		82DA65F31D7E19DD001C9121 /* matias.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 82DA65D51D7E19DD001C9121 /* matias.jpg */; };
+		82DA65F41D7E19DD001C9121 /* nuevoleon.png in Resources */ = {isa = PBXBuildFile; fileRef = 82DA65D61D7E19DD001C9121 /* nuevoleon.png */; };
+		82DA65F51D7E19DD001C9121 /* nvo_apodaca.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 82DA65D71D7E19DD001C9121 /* nvo_apodaca.jpg */; };
+		82DA65F61D7E19DD001C9121 /* nvo_monterrey.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 82DA65D81D7E19DD001C9121 /* nvo_monterrey.jpg */; };
+		82DA65F71D7E19DD001C9121 /* nvo_sanpedro.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 82DA65D91D7E19DD001C9121 /* nvo_sanpedro.jpg */; };
+		82DA65F81D7E19DD001C9121 /* nvo_santacatarina.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 82DA65DA1D7E19DD001C9121 /* nvo_santacatarina.jpg */; };
+		82DA65F91D7E19DD001C9121 /* nvo_santiago.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 82DA65DB1D7E19DD001C9121 /* nvo_santiago.jpg */; };
+		82DA65FA1D7E19DD001C9121 /* oax_calpulalpam.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 82DA65DC1D7E19DD001C9121 /* oax_calpulalpam.jpg */; };
+		82DA65FB1D7E19DD001C9121 /* oax_oaxaca.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 82DA65DD1D7E19DD001C9121 /* oax_oaxaca.jpg */; };
+		82DA65FC1D7E19DD001C9121 /* oax_sanlorenzo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 82DA65DE1D7E19DD001C9121 /* oax_sanlorenzo.jpg */; };
+		82DA65FD1D7E19DD001C9121 /* oax_tule.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 82DA65DF1D7E19DD001C9121 /* oax_tule.jpg */; };
+		82DA65FE1D7E19DD001C9121 /* oaxaca.png in Resources */ = {isa = PBXBuildFile; fileRef = 82DA65E01D7E19DD001C9121 /* oaxaca.png */; };
+		82DA65FF1D7E19DD001C9121 /* qr_cancun.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 82DA65E11D7E19DD001C9121 /* qr_cancun.jpg */; };
+		82DA66001D7E19DD001C9121 /* qr_cozumel.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 82DA65E21D7E19DD001C9121 /* qr_cozumel.jpg */; };
+		82DA66011D7E19DE001C9121 /* qr_islamujeres.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 82DA65E31D7E19DD001C9121 /* qr_islamujeres.jpg */; };
+		82DA66021D7E19DE001C9121 /* qr_playadelcarmen.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 82DA65E41D7E19DD001C9121 /* qr_playadelcarmen.jpg */; };
+		82DA66031D7E19DE001C9121 /* qr_tulum.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 82DA65E51D7E19DD001C9121 /* qr_tulum.jpg */; };
+		82DA66041D7E19DE001C9121 /* quintanaroo.png in Resources */ = {isa = PBXBuildFile; fileRef = 82DA65E61D7E19DD001C9121 /* quintanaroo.png */; };
+		82DA66051D7E19DE001C9121 /* sanluis.png in Resources */ = {isa = PBXBuildFile; fileRef = 82DA65E71D7E19DD001C9121 /* sanluis.png */; };
+		82DA66061D7E19DE001C9121 /* slp_realdecatorce.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 82DA65E81D7E19DD001C9121 /* slp_realdecatorce.jpg */; };
+		82DA66071D7E19DE001C9121 /* slp_rioverde.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 82DA65E91D7E19DD001C9121 /* slp_rioverde.jpg */; };
+		82DA66081D7E19DE001C9121 /* slp_sanluis.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 82DA65EA1D7E19DD001C9121 /* slp_sanluis.jpg */; };
+		82DA66091D7E19DE001C9121 /* slp_tamasopo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 82DA65EB1D7E19DD001C9121 /* slp_tamasopo.jpg */; };
+		82DA660A1D7E19DE001C9121 /* slp_xilitla.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 82DA65EC1D7E19DD001C9121 /* slp_xilitla.jpg */; };
+		82DA660E1D7E1A10001C9121 /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = 82DA660D1D7E1A10001C9121 /* Podfile */; };
 		82DBE8E51D7E0A1B00D11A80 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 82DBE8E41D7E0A1B00D11A80 /* main.m */; };
 		82DBE8E81D7E0A1B00D11A80 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 82DBE8E71D7E0A1B00D11A80 /* AppDelegate.m */; };
 		82DBE8EB1D7E0A1B00D11A80 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 82DBE8EA1D7E0A1B00D11A80 /* ViewController.m */; };
@@ -14,9 +55,59 @@
 		82DBE8F11D7E0A1B00D11A80 /* lab5.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 82DBE8EF1D7E0A1B00D11A80 /* lab5.xcdatamodeld */; };
 		82DBE8F31D7E0A1B00D11A80 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 82DBE8F21D7E0A1B00D11A80 /* Assets.xcassets */; };
 		82DBE8F61D7E0A1B00D11A80 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 82DBE8F41D7E0A1B00D11A80 /* LaunchScreen.storyboard */; };
+		BB59632870EBDC69984E85AD /* Pods_lab5.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00EBB2B1F0F5A284829295C8 /* Pods_lab5.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		00EBB2B1F0F5A284829295C8 /* Pods_lab5.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_lab5.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		82DA65AC1D7E1970001C9121 /* cellHome.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cellHome.h; sourceTree = "<group>"; };
+		82DA65AD1D7E1970001C9121 /* cellHome.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = cellHome.m; sourceTree = "<group>"; };
+		82DA65AE1D7E1970001C9121 /* cellHome.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = cellHome.xib; sourceTree = "<group>"; };
+		82DA65AF1D7E1970001C9121 /* cellMunipios.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cellMunipios.h; sourceTree = "<group>"; };
+		82DA65B01D7E1970001C9121 /* cellMunipios.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = cellMunipios.m; sourceTree = "<group>"; };
+		82DA65B11D7E1970001C9121 /* cellMunipios.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = cellMunipios.xib; sourceTree = "<group>"; };
+		82DA65B21D7E1970001C9121 /* Declarations.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Declarations.h; sourceTree = "<group>"; };
+		82DA65B31D7E1970001C9121 /* Declarations.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Declarations.m; sourceTree = "<group>"; };
+		82DA65B41D7E1970001C9121 /* DestinationDetails.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DestinationDetails.h; sourceTree = "<group>"; };
+		82DA65B51D7E1970001C9121 /* DestinationDetails.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DestinationDetails.m; sourceTree = "<group>"; };
+		82DA65B61D7E1970001C9121 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		82DA65B71D7E1970001C9121 /* Home.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Home.h; sourceTree = "<group>"; };
+		82DA65B81D7E1970001C9121 /* Home.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Home.m; sourceTree = "<group>"; };
+		82DA65BC1D7E1970001C9121 /* Municipios.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Municipios.h; sourceTree = "<group>"; };
+		82DA65BD1D7E1970001C9121 /* Municipios.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Municipios.m; sourceTree = "<group>"; };
+		82DA65BE1D7E1970001C9121 /* ShoppingCart.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShoppingCart.h; sourceTree = "<group>"; };
+		82DA65BF1D7E1970001C9121 /* ShoppingCart.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShoppingCart.m; sourceTree = "<group>"; };
+		82DA65CF1D7E19DD001C9121 /* jal_arandas.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = jal_arandas.jpg; path = Images/jal_arandas.jpg; sourceTree = "<group>"; };
+		82DA65D01D7E19DD001C9121 /* jal_guadalajara.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = jal_guadalajara.jpg; path = Images/jal_guadalajara.jpg; sourceTree = "<group>"; };
+		82DA65D11D7E19DD001C9121 /* jal_tlajomulco.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = jal_tlajomulco.jpg; path = Images/jal_tlajomulco.jpg; sourceTree = "<group>"; };
+		82DA65D21D7E19DD001C9121 /* jal_tlaquepaque.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = jal_tlaquepaque.jpg; path = Images/jal_tlaquepaque.jpg; sourceTree = "<group>"; };
+		82DA65D31D7E19DD001C9121 /* jal_tonala.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = jal_tonala.jpg; path = Images/jal_tonala.jpg; sourceTree = "<group>"; };
+		82DA65D41D7E19DD001C9121 /* jalisco.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = jalisco.png; path = Images/jalisco.png; sourceTree = "<group>"; };
+		82DA65D51D7E19DD001C9121 /* matias.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = matias.jpg; path = Images/matias.jpg; sourceTree = "<group>"; };
+		82DA65D61D7E19DD001C9121 /* nuevoleon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = nuevoleon.png; path = Images/nuevoleon.png; sourceTree = "<group>"; };
+		82DA65D71D7E19DD001C9121 /* nvo_apodaca.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = nvo_apodaca.jpg; path = Images/nvo_apodaca.jpg; sourceTree = "<group>"; };
+		82DA65D81D7E19DD001C9121 /* nvo_monterrey.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = nvo_monterrey.jpg; path = Images/nvo_monterrey.jpg; sourceTree = "<group>"; };
+		82DA65D91D7E19DD001C9121 /* nvo_sanpedro.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = nvo_sanpedro.jpg; path = Images/nvo_sanpedro.jpg; sourceTree = "<group>"; };
+		82DA65DA1D7E19DD001C9121 /* nvo_santacatarina.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = nvo_santacatarina.jpg; path = Images/nvo_santacatarina.jpg; sourceTree = "<group>"; };
+		82DA65DB1D7E19DD001C9121 /* nvo_santiago.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = nvo_santiago.jpg; path = Images/nvo_santiago.jpg; sourceTree = "<group>"; };
+		82DA65DC1D7E19DD001C9121 /* oax_calpulalpam.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = oax_calpulalpam.jpg; path = Images/oax_calpulalpam.jpg; sourceTree = "<group>"; };
+		82DA65DD1D7E19DD001C9121 /* oax_oaxaca.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = oax_oaxaca.jpg; path = Images/oax_oaxaca.jpg; sourceTree = "<group>"; };
+		82DA65DE1D7E19DD001C9121 /* oax_sanlorenzo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = oax_sanlorenzo.jpg; path = Images/oax_sanlorenzo.jpg; sourceTree = "<group>"; };
+		82DA65DF1D7E19DD001C9121 /* oax_tule.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = oax_tule.jpg; path = Images/oax_tule.jpg; sourceTree = "<group>"; };
+		82DA65E01D7E19DD001C9121 /* oaxaca.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = oaxaca.png; path = Images/oaxaca.png; sourceTree = "<group>"; };
+		82DA65E11D7E19DD001C9121 /* qr_cancun.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = qr_cancun.jpg; path = Images/qr_cancun.jpg; sourceTree = "<group>"; };
+		82DA65E21D7E19DD001C9121 /* qr_cozumel.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = qr_cozumel.jpg; path = Images/qr_cozumel.jpg; sourceTree = "<group>"; };
+		82DA65E31D7E19DD001C9121 /* qr_islamujeres.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = qr_islamujeres.jpg; path = Images/qr_islamujeres.jpg; sourceTree = "<group>"; };
+		82DA65E41D7E19DD001C9121 /* qr_playadelcarmen.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = qr_playadelcarmen.jpg; path = Images/qr_playadelcarmen.jpg; sourceTree = "<group>"; };
+		82DA65E51D7E19DD001C9121 /* qr_tulum.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = qr_tulum.jpg; path = Images/qr_tulum.jpg; sourceTree = "<group>"; };
+		82DA65E61D7E19DD001C9121 /* quintanaroo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = quintanaroo.png; path = Images/quintanaroo.png; sourceTree = "<group>"; };
+		82DA65E71D7E19DD001C9121 /* sanluis.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = sanluis.png; path = Images/sanluis.png; sourceTree = "<group>"; };
+		82DA65E81D7E19DD001C9121 /* slp_realdecatorce.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = slp_realdecatorce.jpg; path = Images/slp_realdecatorce.jpg; sourceTree = "<group>"; };
+		82DA65E91D7E19DD001C9121 /* slp_rioverde.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = slp_rioverde.jpg; path = Images/slp_rioverde.jpg; sourceTree = "<group>"; };
+		82DA65EA1D7E19DD001C9121 /* slp_sanluis.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = slp_sanluis.jpg; path = Images/slp_sanluis.jpg; sourceTree = "<group>"; };
+		82DA65EB1D7E19DD001C9121 /* slp_tamasopo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = slp_tamasopo.jpg; path = Images/slp_tamasopo.jpg; sourceTree = "<group>"; };
+		82DA65EC1D7E19DD001C9121 /* slp_xilitla.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = slp_xilitla.jpg; path = Images/slp_xilitla.jpg; sourceTree = "<group>"; };
+		82DA660D1D7E1A10001C9121 /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		82DBE8E01D7E0A1B00D11A80 /* lab5.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = lab5.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		82DBE8E41D7E0A1B00D11A80 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		82DBE8E61D7E0A1B00D11A80 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -28,6 +119,8 @@
 		82DBE8F21D7E0A1B00D11A80 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		82DBE8F51D7E0A1B00D11A80 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		82DBE8F71D7E0A1B00D11A80 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C624E506BA28EEB78F0B3F6D /* Pods-lab5.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-lab5.debug.xcconfig"; path = "Pods/Target Support Files/Pods-lab5/Pods-lab5.debug.xcconfig"; sourceTree = "<group>"; };
+		EAAA625AF4791A5863C0ED78 /* Pods-lab5.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-lab5.release.xcconfig"; path = "Pods/Target Support Files/Pods-lab5/Pods-lab5.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,17 +128,75 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BB59632870EBDC69984E85AD /* Pods_lab5.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1D634C4913D5972B89C8D561 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C624E506BA28EEB78F0B3F6D /* Pods-lab5.debug.xcconfig */,
+				EAAA625AF4791A5863C0ED78 /* Pods-lab5.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		5FB1C3EA1B15B37FC5229742 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				00EBB2B1F0F5A284829295C8 /* Pods_lab5.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		82DA65CC1D7E19BF001C9121 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				82DA65CF1D7E19DD001C9121 /* jal_arandas.jpg */,
+				82DA65D01D7E19DD001C9121 /* jal_guadalajara.jpg */,
+				82DA65D11D7E19DD001C9121 /* jal_tlajomulco.jpg */,
+				82DA65D21D7E19DD001C9121 /* jal_tlaquepaque.jpg */,
+				82DA65D31D7E19DD001C9121 /* jal_tonala.jpg */,
+				82DA65D41D7E19DD001C9121 /* jalisco.png */,
+				82DA65D51D7E19DD001C9121 /* matias.jpg */,
+				82DA65D61D7E19DD001C9121 /* nuevoleon.png */,
+				82DA65D71D7E19DD001C9121 /* nvo_apodaca.jpg */,
+				82DA65D81D7E19DD001C9121 /* nvo_monterrey.jpg */,
+				82DA65D91D7E19DD001C9121 /* nvo_sanpedro.jpg */,
+				82DA65DA1D7E19DD001C9121 /* nvo_santacatarina.jpg */,
+				82DA65DB1D7E19DD001C9121 /* nvo_santiago.jpg */,
+				82DA65DC1D7E19DD001C9121 /* oax_calpulalpam.jpg */,
+				82DA65DD1D7E19DD001C9121 /* oax_oaxaca.jpg */,
+				82DA65DE1D7E19DD001C9121 /* oax_sanlorenzo.jpg */,
+				82DA65DF1D7E19DD001C9121 /* oax_tule.jpg */,
+				82DA65E01D7E19DD001C9121 /* oaxaca.png */,
+				82DA65E11D7E19DD001C9121 /* qr_cancun.jpg */,
+				82DA65E21D7E19DD001C9121 /* qr_cozumel.jpg */,
+				82DA65E31D7E19DD001C9121 /* qr_islamujeres.jpg */,
+				82DA65E41D7E19DD001C9121 /* qr_playadelcarmen.jpg */,
+				82DA65E51D7E19DD001C9121 /* qr_tulum.jpg */,
+				82DA65E61D7E19DD001C9121 /* quintanaroo.png */,
+				82DA65E71D7E19DD001C9121 /* sanluis.png */,
+				82DA65E81D7E19DD001C9121 /* slp_realdecatorce.jpg */,
+				82DA65E91D7E19DD001C9121 /* slp_rioverde.jpg */,
+				82DA65EA1D7E19DD001C9121 /* slp_sanluis.jpg */,
+				82DA65EB1D7E19DD001C9121 /* slp_tamasopo.jpg */,
+				82DA65EC1D7E19DD001C9121 /* slp_xilitla.jpg */,
+			);
+			name = images;
+			sourceTree = "<group>";
+		};
 		82DBE8D71D7E0A1B00D11A80 = {
 			isa = PBXGroup;
 			children = (
+				82DA660D1D7E1A10001C9121 /* Podfile */,
 				82DBE8E21D7E0A1B00D11A80 /* lab5 */,
 				82DBE8E11D7E0A1B00D11A80 /* Products */,
+				1D634C4913D5972B89C8D561 /* Pods */,
+				5FB1C3EA1B15B37FC5229742 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -60,6 +211,24 @@
 		82DBE8E21D7E0A1B00D11A80 /* lab5 */ = {
 			isa = PBXGroup;
 			children = (
+				82DA65CC1D7E19BF001C9121 /* images */,
+				82DA65AC1D7E1970001C9121 /* cellHome.h */,
+				82DA65AD1D7E1970001C9121 /* cellHome.m */,
+				82DA65AE1D7E1970001C9121 /* cellHome.xib */,
+				82DA65AF1D7E1970001C9121 /* cellMunipios.h */,
+				82DA65B01D7E1970001C9121 /* cellMunipios.m */,
+				82DA65B11D7E1970001C9121 /* cellMunipios.xib */,
+				82DA65B21D7E1970001C9121 /* Declarations.h */,
+				82DA65B31D7E1970001C9121 /* Declarations.m */,
+				82DA65B41D7E1970001C9121 /* DestinationDetails.h */,
+				82DA65B51D7E1970001C9121 /* DestinationDetails.m */,
+				82DA65B61D7E1970001C9121 /* GoogleService-Info.plist */,
+				82DA65B71D7E1970001C9121 /* Home.h */,
+				82DA65B81D7E1970001C9121 /* Home.m */,
+				82DA65BC1D7E1970001C9121 /* Municipios.h */,
+				82DA65BD1D7E1970001C9121 /* Municipios.m */,
+				82DA65BE1D7E1970001C9121 /* ShoppingCart.h */,
+				82DA65BF1D7E1970001C9121 /* ShoppingCart.m */,
 				82DBE8E61D7E0A1B00D11A80 /* AppDelegate.h */,
 				82DBE8E71D7E0A1B00D11A80 /* AppDelegate.m */,
 				82DBE8E91D7E0A1B00D11A80 /* ViewController.h */,
@@ -89,9 +258,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 82DBE8FA1D7E0A1B00D11A80 /* Build configuration list for PBXNativeTarget "lab5" */;
 			buildPhases = (
+				24B1582B426192804542ECBB /* [CP] Check Pods Manifest.lock */,
 				82DBE8DC1D7E0A1B00D11A80 /* Sources */,
 				82DBE8DD1D7E0A1B00D11A80 /* Frameworks */,
 				82DBE8DE1D7E0A1B00D11A80 /* Resources */,
+				6E7F227C71D2151504ABC139 /* [CP] Embed Pods Frameworks */,
+				392A8921A3B77E2C38C1475E /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -139,13 +311,95 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				82DA65C31D7E1970001C9121 /* cellMunipios.xib in Resources */,
+				82DA66091D7E19DE001C9121 /* slp_tamasopo.jpg in Resources */,
+				82DA65F81D7E19DD001C9121 /* nvo_santacatarina.jpg in Resources */,
+				82DA66061D7E19DE001C9121 /* slp_realdecatorce.jpg in Resources */,
+				82DA65FF1D7E19DD001C9121 /* qr_cancun.jpg in Resources */,
+				82DA66011D7E19DE001C9121 /* qr_islamujeres.jpg in Resources */,
 				82DBE8F61D7E0A1B00D11A80 /* LaunchScreen.storyboard in Resources */,
+				82DA65FB1D7E19DD001C9121 /* oax_oaxaca.jpg in Resources */,
+				82DA65EE1D7E19DD001C9121 /* jal_guadalajara.jpg in Resources */,
+				82DA660E1D7E1A10001C9121 /* Podfile in Resources */,
+				82DA65F71D7E19DD001C9121 /* nvo_sanpedro.jpg in Resources */,
+				82DA66001D7E19DD001C9121 /* qr_cozumel.jpg in Resources */,
+				82DA65EF1D7E19DD001C9121 /* jal_tlajomulco.jpg in Resources */,
+				82DA65F41D7E19DD001C9121 /* nuevoleon.png in Resources */,
+				82DA65FC1D7E19DD001C9121 /* oax_sanlorenzo.jpg in Resources */,
+				82DA65F21D7E19DD001C9121 /* jalisco.png in Resources */,
+				82DA65F31D7E19DD001C9121 /* matias.jpg in Resources */,
 				82DBE8F31D7E0A1B00D11A80 /* Assets.xcassets in Resources */,
+				82DA660A1D7E19DE001C9121 /* slp_xilitla.jpg in Resources */,
+				82DA65F51D7E19DD001C9121 /* nvo_apodaca.jpg in Resources */,
+				82DA65FA1D7E19DD001C9121 /* oax_calpulalpam.jpg in Resources */,
+				82DA65FE1D7E19DD001C9121 /* oaxaca.png in Resources */,
+				82DA66041D7E19DE001C9121 /* quintanaroo.png in Resources */,
+				82DA65F11D7E19DD001C9121 /* jal_tonala.jpg in Resources */,
+				82DA65C11D7E1970001C9121 /* cellHome.xib in Resources */,
 				82DBE8EE1D7E0A1B00D11A80 /* Main.storyboard in Resources */,
+				82DA65F91D7E19DD001C9121 /* nvo_santiago.jpg in Resources */,
+				82DA65F01D7E19DD001C9121 /* jal_tlaquepaque.jpg in Resources */,
+				82DA66081D7E19DE001C9121 /* slp_sanluis.jpg in Resources */,
+				82DA65FD1D7E19DD001C9121 /* oax_tule.jpg in Resources */,
+				82DA66071D7E19DE001C9121 /* slp_rioverde.jpg in Resources */,
+				82DA65ED1D7E19DD001C9121 /* jal_arandas.jpg in Resources */,
+				82DA66031D7E19DE001C9121 /* qr_tulum.jpg in Resources */,
+				82DA66021D7E19DE001C9121 /* qr_playadelcarmen.jpg in Resources */,
+				82DA66051D7E19DE001C9121 /* sanluis.png in Resources */,
+				82DA65F61D7E19DD001C9121 /* nvo_monterrey.jpg in Resources */,
+				82DA65C61D7E1970001C9121 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		24B1582B426192804542ECBB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		392A8921A3B77E2C38C1475E /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-lab5/Pods-lab5-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6E7F227C71D2151504ABC139 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-lab5/Pods-lab5-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		82DBE8DC1D7E0A1B00D11A80 /* Sources */ = {
@@ -153,9 +407,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				82DBE8EB1D7E0A1B00D11A80 /* ViewController.m in Sources */,
+				82DA65CA1D7E1970001C9121 /* Municipios.m in Sources */,
+				82DA65C21D7E1970001C9121 /* cellMunipios.m in Sources */,
 				82DBE8F11D7E0A1B00D11A80 /* lab5.xcdatamodeld in Sources */,
+				82DA65C41D7E1970001C9121 /* Declarations.m in Sources */,
 				82DBE8E81D7E0A1B00D11A80 /* AppDelegate.m in Sources */,
+				82DA65C01D7E1970001C9121 /* cellHome.m in Sources */,
 				82DBE8E51D7E0A1B00D11A80 /* main.m in Sources */,
+				82DA65C51D7E1970001C9121 /* DestinationDetails.m in Sources */,
+				82DA65C71D7E1970001C9121 /* Home.m in Sources */,
+				82DA65CB1D7E1970001C9121 /* ShoppingCart.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -267,6 +528,7 @@
 		};
 		82DBE8FB1D7E0A1B00D11A80 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C624E506BA28EEB78F0B3F6D /* Pods-lab5.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = lab5/Info.plist;
@@ -278,6 +540,7 @@
 		};
 		82DBE8FC1D7E0A1B00D11A80 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EAAA625AF4791A5863C0ED78 /* Pods-lab5.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = lab5/Info.plist;
@@ -306,6 +569,7 @@
 				82DBE8FC1D7E0A1B00D11A80 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 

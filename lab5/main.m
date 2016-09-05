@@ -2,8 +2,8 @@
 //  main.m
 //  lab5
 //
-//  Created by Jose on 9/5/16.
-//  Copyright © 2016 robert. All rights reserved.
+//  Created by Jose Rodriguez on 01/09/16.
+//  Copyright © 2016 jose. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>
